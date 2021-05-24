@@ -1,4 +1,5 @@
 # Lab8_Starter
+Hien To
 
 ## Check your understanding q's (FILL OUT)
 1. In your own words: Where would you fit your automated tests in your Bujo project development pipeline? (just write the letter)
@@ -17,10 +18,10 @@
 
     With "headless" set to true, puppeteer would run the tests without a graphical user interface (or browser UI)
 
-5. What would your beforeAll callback look like if you wanted to start from the settings page before every test case?
+5. What would your beforeAll callback look like if you wanted to start from the settings page before every test case? 
 
-    beforeAll(async () => {
-        await page.goto('http://127.0.0.1:5500');
-        await page.click('[alt=settings]')
-        await page.waitForTimeout(500);
-    });
+    beforeAll(async () => {  <br />
+        await page.goto('http://127.0.0.1:5500');  <br />
+        await page.click('[alt=settings]')  <br />
+        await page.waitForTimeout(500);  <br />
+    });  <br />
